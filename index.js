@@ -9,7 +9,8 @@ app.use(passport.session());
 
 app.set("view engine", "ejs");
 
-
+const GOOGLE_CLIENT_ID="";
+const GOOGLE_CLIENT_SECRET="";
 
 app.use(
   session({
